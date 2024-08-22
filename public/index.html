@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Management System: Log in to the site</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=PT+Sans+Narrow:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="utility.css">
+     <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+         <nav class="navbar">
+            <Ul class="list">
+                <li id="logo">LMS | UAF</li>
+                <li class="listitems">Dashboard</li>
+                <li class="listitems">Result</li>
+                <li class="listitems">Download</li>
+                <li class="listitems">Helping Material</li>
+                <li class="listitems">Contact US</li>
+            </Ul>
+            <div class="login">
+                You are not logged in.
+            </div>
+         </nav>
+         <div class="logocontainer">
+          <div class="logo">
+            <img src="logos.png" alt="">
+          </div>
+          <div class="home">
+            <div>
+                <a href="">Home</a>
+            </div>
+                <img src="arrow.svg" alt="error">
+            <div>Log in to the site</div>
+          </div>
+         </div>
+         <div class="cookies">
+            Cookies must be enabled in your browser
+         </div>
+         <div class="loginsection">
+          <div class="left">
+            <div class="head">Login</div>
+            <hr>
+            <div class="form">
+                <form action="/form-submit" method="get">
+                    <div class="username mtop">
+                        <label class=" white font" for="username">Username</label>
+                        <br>
+                        <input class="wfull mplace hplace" type="text" name="username" id="username" placeholder="Enter Your Username">
+
+                    </div>
+                    <div class="password white font">
+                         <label for="password">Password</label>
+                         <br>
+                        <input class="wfull mplace hplace" type="password" name="password" id="password" placeholder="Enter Your Password">
+                    </div>
+                    <input type="checkbox" name="checkbox" id="checkbox">
+                    <span class="white font">Remember username</span>
+                    <div class="btn">
+                        <input id="submit" type="submit" value="Log In">
+                    </div>
+                </form>
+            </div>
+        </div>
+          <div class="right">
+              <div class="head">Result</div>
+              <hr>
+              <div class=" mtop">
+                <label class=" white font" for="username">Registration No</label>
+                <br>
+                <input class="w90 mplace hplace" type="text" name="Registration" id="Registration" placeholder="Enter Your Registration no (****-ag-****)">
+                <div class="btn">
+                    <button>Result</button>
+                </div>
+                <div class="links head">
+                    Important Links
+                </div>
+                <hr>
+                <div class="linkbox">
+                    <div class="link link1">Register/ Activate Your Account</div>
+                    <div class="link">Recover your Account</div>
+                </div>
+            </div>
+              
+          </div>
+         </div>
+         <div class="section">
+            <div class="text">Some courses may allow guest access</div>
+            <div>
+                <button>Log in as a guest</button>
+            </div>
+         </div>
+         <hr>
+         <footer>
+            <div class="text">You are not logged in.</div>
+            <div><a href="">Home</a></div>
+            <div> <a href="">Get the mobile app</a></div>
+           
+         </footer>
+</body>
+</html>
